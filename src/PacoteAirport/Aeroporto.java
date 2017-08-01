@@ -15,6 +15,7 @@ public class Aeroporto extends Thread {
 	public static LinkedList <Thread> AvioesDecolando = new LinkedList<Thread>();
 	public static int contadorAvioesP = 0;
 	public static int contadorAvioesD = 0;
+	public static int aux = 0;
 	
 	public static void main(String[] args) throws InterruptedException{
 		//Criação da Thread Tempo para controlar o tempo de execução do programa
